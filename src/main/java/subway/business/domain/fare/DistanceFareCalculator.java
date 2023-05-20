@@ -2,11 +2,11 @@ package subway.business.domain.fare;
 
 import java.util.List;
 
-public class FareCalculator {
+public class DistanceFareCalculator {
     private static final int BASIC_FARE = 1250;
     private final List<DistanceFareStrategy> distanceStrategies;
 
-    public FareCalculator(List<DistanceFareStrategy> distanceStrategies) {
+    public DistanceFareCalculator(List<DistanceFareStrategy> distanceStrategies) {
         this.distanceStrategies = distanceStrategies;
     }
 
